@@ -1,7 +1,9 @@
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
-import featuredImg from '../../../../assets/home/featured.jpg'
 
-const Featured = () => {
+
+import featuredImg from '../../../assets/home/featured.jpg'
+import SectionTitle from '../../../components/SectionTitle/SectionTitle';
+import './Feature.css'
+const Feature = () => {
     return (
         <div className="featured-item bg fixed text-white pt-10 my-20">
             <SectionTitle
@@ -26,4 +28,4 @@ const Featured = () => {
     );
 };
 
-export default Featured;
+export default Feature;
