@@ -10,9 +10,10 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper";
 import { useEffect, useState } from "react";
-import { Rating } from '@smastrom/react-rating'
+import Rating from "react-rating";
 
-import '@smastrom/react-rating/style.css'
+
+
 
 const Testimonial = () => {
     const [reviews, setReviews] = useState([]);
