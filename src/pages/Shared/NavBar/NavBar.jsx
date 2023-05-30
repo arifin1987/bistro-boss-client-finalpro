@@ -16,6 +16,7 @@ const NavBar = () => {
         <li><a><Link to='/'>Home</Link></a></li>
         <li><a><Link to='/menu'>Our Menu</Link></a></li>
         <li><a><Link to='/order/salad'>Order</Link></a></li>
+        <li><a><Link to='/secret'>Secret</Link></a></li>
         
         {
           user? <>
