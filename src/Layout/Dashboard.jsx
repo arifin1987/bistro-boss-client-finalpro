@@ -1,4 +1,4 @@
-import { FaBook, FaCalendarAlt, FaHome, FaShoppingCart, FaUsers, FaUtensils, FaWallet } from "react-icons/fa";
+import {  FaCalendarAlt, FaHome, FaShoppingCart, FaWallet } from "react-icons/fa";
 import { NavLink,  Outlet } from "react-router-dom";
 import useCart from "../hooks/useCart";
 
